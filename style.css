@@ -38,11 +38,12 @@ input{
 }
 
 .cruzadinha{
-    width: 50%;
-    margin-left: 10rem;
+    /* width: 50%; */
+    /* margin-left: 10rem; */
     text-align: center;
     color: antiquewhite;
     font-size: 1.2rem;
+
 }
 
 .numero{
@@ -72,10 +73,19 @@ input{
     background-color: rgb(222, 184, 135, 0.6);
     border-radius: 8px;
     color:  rgb(66, 40, 7);
+    overflow-y: scroll;
+    height: 900px;
 }
 
 .perguntas li{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     list-style:decimal;
     margin-bottom: 1.5rem;
+}
+
+#ganhou{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    
 }
