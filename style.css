@@ -76,6 +76,6 @@ input{
 
 .perguntas li{
     font-size: 1.2rem;
-    list-style: decimal;
+    list-style:decimal;
     margin-bottom: 1.5rem;
 }
