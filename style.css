@@ -1,10 +1,81 @@
-
-
-body{
-  
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.linha input{
-    width: 2.5rem;
-    height: 2.5rem;
+body{
+    background-image: url(9043a730ef9d90e2b2e6c92265939457.png);
+    background-size: cover;
+}
+
+input{
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+}
+
+.imgBovinus {
+    width: 180px;
+    margin-right: 20px;
+}
+
+.jogo{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cruzadinha{
+    width: 50%;
+    margin-left: 10rem;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 1.2rem;
+}
+
+.numero{
+    background-color: rgb(222, 184, 135, 0.6); 
+    border-radius: 150px;
+    width:1.5rem;
+    height: 1.5rem;
+}
+
+.cruzadinha input{
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+}
+
+.espaco{
+    width: 1.5rem;
+    height: 2rem;
+    padding: 0.18rem;
+    color: black;
+    background-color: black;
+}
+
+.perguntas{
+    width: 50%;
+    padding: 1rem;
+    background-color: rgb(222, 184, 135, 0.6);
+    border-radius: 8px;
+    color:  rgb(66, 40, 7);
+}
+
+.perguntas li{
+    font-size: 1.2rem;
+    list-style: decimal;
+    margin-bottom: 1.5rem;
 }
