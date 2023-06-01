@@ -845,5 +845,45 @@ function validarPalavra() {
         document.getElementById('quadrado94').style.backgroundColor = 'rgb(255,99,71)'
     }
 
+    if( letra94.toUpperCase() == 'E' && letra93.toUpperCase() == 'S' && letra92.toUpperCase() == 'R'
+    && letra91.toUpperCase() == 'E' && letra90.toUpperCase() == 'O' && letra89.toUpperCase() == 'R'
+    && letra88.toUpperCase() == 'C' && letra87.toUpperCase() == 'O' && letra86.toUpperCase() == 'A'
+    && letra85.toUpperCase() == 'D' && letra84.toUpperCase() == 'H' && letra83.toUpperCase() == 'S'
+    && letra82.toUpperCase() == 'A' && letra81.toUpperCase() == 'L' && letra80.toUpperCase() == 'F'
+    && letra79.toUpperCase() == 'S' && letra78.toUpperCase() == 'U' && letra77.toUpperCase() == 'B'
+    && letra76.toUpperCase() == 'A' && letra75.toUpperCase() == 'T' && letra74.toUpperCase() == 'A'
+    && letra73.toUpperCase() == 'D' && letra72.toUpperCase() == 'M' && letra71.toUpperCase() == 'S'
+    && letra70.toUpperCase() == 'A' && letra69.toUpperCase() == 'D' && letra68.toUpperCase() == 'R'
+    && letra67.toUpperCase() == 'O' && letra66.toUpperCase() == 'A' && letra65.toUpperCase() == 'L'
+    && letra64.toUpperCase() == 'U' && letra63.toUpperCase() == 'A' && letra62.toUpperCase() == 'T'
+    && letra61.toUpperCase() == 'M' && letra60.toUpperCase() == 'A' && letra59.toUpperCase() == 'R'
+    && letra58.toUpperCase() == 'M' && letra57.toUpperCase() == 'D' && letra56.toUpperCase() == 'E'
+    && letra55.toUpperCase() == 'S' && letra54.toUpperCase() == 'P' && letra53.toUpperCase() == 'R'
+    && letra52.toUpperCase() == '7' && letra51.toUpperCase() == 'I' && letra50.toUpperCase() == 'T' 
+    && letra49.toUpperCase() == 'C' && letra48.toUpperCase() == 'E' && letra47.toUpperCase() == 'L'
+    && letra46.toUpperCase() == 'E' && letra45.toUpperCase() == 'S' && letra44.toUpperCase() == 'P'
+    && letra43.toUpperCase() == 'I' && letra42.toUpperCase() == 'H' && letra41.toUpperCase() == 'C'
+    && letra40.toUpperCase() == 'G' && letra39.toUpperCase() == 'D' && letra38.toUpperCase() == 'T'
+    && letra37.toUpperCase() == 'E' && letra36.toUpperCase() == 'R' && letra35.toUpperCase() == 'A'
+    && letra34.toUpperCase() == 'M' && letra33.toUpperCase() == 'D' && letra32.toUpperCase() == 'E'
+    && letra31.toUpperCase() == '5' && letra30.toUpperCase() == 'I' && letra29.toUpperCase() == 'M'
+    && letra28.toUpperCase() == 'O' && letra27.toUpperCase() == 'R' && letra26.toUpperCase() == 'R'
+    && letra25.toUpperCase() == 'E' && letra24.toUpperCase() == 'O' && letra23.toUpperCase() == 'O'
+    && letra22.toUpperCase() == 'H' && letra21.toUpperCase() == 'C' && letra20.toUpperCase() == 'M'
+    && letra19.toUpperCase() == 'C' && letra18.toUpperCase() == 'S' && letra17.toUpperCase() == 'U'
+    && letra16.toUpperCase() == 'B' && letra15.toUpperCase() == 'S' && letra14.toUpperCase() == 'S'
+    && letra13.toUpperCase() == 'E' && letra12.toUpperCase() == 'R' && letra11.toUpperCase() == 'D'
+    && letra10.toUpperCase() == 'D' && letra9.toUpperCase() == 'A' && letra8.toUpperCase() == 'D'
+    && letra7.toUpperCase() == 'M' && letra6.toUpperCase() == 'C' && letra5.toUpperCase() == 'A'
+    && letra4.toUpperCase() == 'U' && letra3.toUpperCase() == 'P' && letra2.toUpperCase() == 'C'
+    && letra1.toUpperCase() == 'Q'){
+
+        document.getElementById('ganhou').style.display = "flex"
+    
+        var body = document.body;
+
+        body.style.backgroundImage = 'url(https://i.pinimg.com/originals/7a/05/59/7a05593d9b060d27822658a98327b755.gif)';
+    }
+
 }
 

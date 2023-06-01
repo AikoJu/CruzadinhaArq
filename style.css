@@ -5,7 +5,10 @@
 body{
     background-image: url(9043a730ef9d90e2b2e6c92265939457.png);
     background-size: cover;
+    margin: 0;
+    position: relative;
 }
+
 
 input{
     border-radius: 5px;
@@ -43,7 +46,6 @@ input{
     text-align: center;
     color: antiquewhite;
     font-size: 1.2rem;
-
 }
 
 .numero{
@@ -84,8 +86,27 @@ input{
 }
 
 #ganhou{
-    width: 300px;
-    height: 200px;
-    background-color: red;
+    width: 600px;
+    height: 350px;
+    background-color: rgb(64, 216, 30);
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    z-index: 1;
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    gap: 40px;
+}
+
+#ganhou span{
+    font-size: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
     
+}
+
+#ganhou img{
+    height: 200px;
 }
