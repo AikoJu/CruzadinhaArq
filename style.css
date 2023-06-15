@@ -74,15 +74,17 @@ input{
     padding: 1rem;
     background-color: rgb(222, 184, 135, 0.6);
     border-radius: 8px;
-    color:  rgb(66, 40, 7);
+    color:  rgb(3, 3, 3);
+    font-weight: 600;
     overflow-y: scroll;
     height: 900px;
 }
 
 .perguntas li{
+    display: flex;
     font-size: 1.1rem;
-    list-style:decimal;
     margin-bottom: 1.5rem;
+    list-style: none;
 }
 
 #ganhou{
@@ -99,6 +101,12 @@ input{
     top: 300px;
     text-align: center;
     gap: 40px;
+}
+
+.imagemAcerto {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
 }
 
 #ganhou span{
