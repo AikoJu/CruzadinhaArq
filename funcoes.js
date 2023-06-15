@@ -168,14 +168,12 @@ function validarPalavra() {
 
     var letra48 = quadrado48.value
     var letra54 = quadrado54.value
-    var letra59 = quadrado59.value
     var letra67 = quadrado67.value
     var letra72 = quadrado72.value
     
-    if(letra48.toUpperCase() == 'E' && letra54.toUpperCase() == 'P' && letra59.toUpperCase() == 'R' && letra67.toUpperCase() == 'O' && letra72.toUpperCase() == 'M') {
+    if(letra48.toUpperCase() == 'E' && letra54.toUpperCase() == 'P'  && letra67.toUpperCase() == 'O' && letra72.toUpperCase() == 'M') {
         document.getElementById('quadrado48').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado54').style.backgroundColor = 'rgb(60,179,113)'
-        document.getElementById('quadrado59').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado67').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado72').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('imagemAcerto6').src = "carne.png"
@@ -183,14 +181,12 @@ function validarPalavra() {
     } else if(letra48 == '' && letra54 == '' && letra59 == '' && letra67 == '' && letra72 == '') {
         document.getElementById('quadrado48').style.backgroundColor = 'white'
         document.getElementById('quadrado54').style.backgroundColor = 'white'
-        document.getElementById('quadrado59').style.backgroundColor = 'white'
         document.getElementById('quadrado67').style.backgroundColor = 'white'
         document.getElementById('quadrado72').style.backgroundColor = 'white'
         document.getElementById('imagemAcerto6').src = "vaca.png"
     } else {
         document.getElementById('quadrado48').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('quadrado54').style.backgroundColor = 'rgb(192,192,192)'
-        document.getElementById('quadrado59').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('quadrado67').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('quadrado72').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('imagemAcerto6').src = "vaca.png"
@@ -240,7 +236,6 @@ function validarPalavra() {
     var letra39 = quadrado39.value
     var letra46 = quadrado46.value
     var letra58 = quadrado58.value
-    var letra66 = quadrado66.value
     var letra71 = quadrado71.value
     var letra83 = quadrado83.value
     var letra86 = quadrado86.value
@@ -279,7 +274,6 @@ function validarPalavra() {
         document.getElementById('quadrado58').style.backgroundColor = 'white'
         document.getElementById('quadrado66').style.backgroundColor = 'white'
         document.getElementById('quadrado71').style.backgroundColor = 'white'
-        document.getElementById('quadrado83').style.backgroundColor = 'white'
         document.getElementById('quadrado86').style.backgroundColor = 'white'
         document.getElementById('imagemAcerto8').src = "vaca.png"
     } else {
@@ -293,9 +287,7 @@ function validarPalavra() {
         document.getElementById('quadrado39').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('quadrado46').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('quadrado58').style.backgroundColor = 'rgb(192,192,192)'
-        document.getElementById('quadrado66').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('quadrado71').style.backgroundColor = 'rgb(192,192,192)'
-        document.getElementById('quadrado83').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('quadrado86').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('imagemAcerto8').src = "vaca.png"
     }
@@ -315,12 +307,10 @@ function validarPalavra() {
     } else if(letra33 == '' && letra34 == '' && letra35 == '') {
         document.getElementById('quadrado33').style.backgroundColor = 'white'
         document.getElementById('quadrado34').style.backgroundColor = 'white'
-        document.getElementById('quadrado35').style.backgroundColor = 'white'
         document.getElementById('imagemAcerto9').src = "vaca.png"
     } else {
         document.getElementById('quadrado33').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('quadrado34').style.backgroundColor = 'rgb(192,192,192)'
-        document.getElementById('quadrado35').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('imagemAcerto9').src = "vaca.png"
     }
 
@@ -359,9 +349,7 @@ function validarPalavra() {
         document.getElementById('quadrado43').style.backgroundColor = 'white'
         document.getElementById('quadrado44').style.backgroundColor = 'white'
         document.getElementById('quadrado45').style.backgroundColor = 'white'
-        document.getElementById('quadrado46').style.backgroundColor = 'white'
         document.getElementById('quadrado47').style.backgroundColor = 'white'
-        document.getElementById('quadrado48').style.backgroundColor = 'white'
         document.getElementById('quadrado49').style.backgroundColor = 'white'
         document.getElementById('quadrado50').style.backgroundColor = 'white'
         document.getElementById('imagemAcerto10').src = "vaca.png"
@@ -371,10 +359,8 @@ function validarPalavra() {
         document.getElementById('quadrado43').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('quadrado44').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('quadrado45').style.backgroundColor = 'rgb(192,192,192)'
-        document.getElementById('quadrado49').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('quadrado47').style.backgroundColor = 'rgb(192,192,192)'
-        document.getElementById('quadrado48').style.backgroundColor = 'rgb(192,192,192)'
-        document.getElementById('quadrado46').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado49').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('quadrado50').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('imagemAcerto10').src = "vaca.png"
     }
@@ -425,7 +411,6 @@ function validarPalavra() {
         document.getElementById('quadrado10').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('quadrado11').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('quadrado12').style.backgroundColor = 'rgb(192,192,192)'
-        document.getElementById('quadrado13').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('quadrado14').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('quadrado15').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('quadrado16').style.backgroundColor = 'rgb(192,192,192)'
@@ -435,277 +420,220 @@ function validarPalavra() {
     }
 
 
-    var letra1 = quadrado1.value
-    if(letra1.toUpperCase() == 'Q') {
-        document.getElementById('quadrado1').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra1 == '') {
-        document.getElementById('quadrado1').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado1').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    var letra5 = quadrado5.value
-    if(letra5.toUpperCase() == 'A') {
-        document.getElementById('quadrado5').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra5 == '') {
-        document.getElementById('quadrado5').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado5').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    var letra6 = quadrado6.value
-    if(letra6.toUpperCase() == 'C') {
-        document.getElementById('quadrado6').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra6 == '') {
-        document.getElementById('quadrado6').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado6').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    var letra8 = quadrado8.value
-    if(letra8.toUpperCase() == 'D') {
-        document.getElementById('quadrado8').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra8 == '') {
-        document.getElementById('quadrado8').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado8').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    
-    var letra19 = quadrado19.value
-    if(letra19.toUpperCase() == 'C') {
-        document.getElementById('quadrado19').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra19 == '') {
-        document.getElementById('quadrado19').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado19').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    var letra21 = quadrado21.value
-    if(letra21.toUpperCase() == 'C') {
-        document.getElementById('quadrado21').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra21 == '') {
-        document.getElementById('quadrado21').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado21').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    var letra22 = quadrado22.value
-    if(letra22.toUpperCase() == 'H') {
-        document.getElementById('quadrado22').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra22 == '') {
-        document.getElementById('quadrado22').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado22').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    var letra24 = quadrado24.value
-    if(letra24.toUpperCase() == 'O') {
-        document.getElementById('quadrado24').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra24 == '') {
-        document.getElementById('quadrado24').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado24').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    var letra25 = quadrado25.value
-    if(letra25.toUpperCase() == 'E') {
-        document.getElementById('quadrado25').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra25 == '') {
-        document.getElementById('quadrado25').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado25').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    var letra31 = quadrado31.value
-    if(letra31.toUpperCase() == '5') {
-        document.getElementById('quadrado31').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra31 == '') {
-        document.getElementById('quadrado31').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado31').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    var letra32 = quadrado32.value
-    if(letra32.toUpperCase() == 'E') {
-        document.getElementById('quadrado32').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra32 == '') {
-        document.getElementById('quadrado32').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado32').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    var letra38 = quadrado38.value
-    if(letra38.toUpperCase() == 'T') {
-        document.getElementById('quadrado38').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra38 == '') {
-        document.getElementById('quadrado38').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado38').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    var letra52 = quadrado52.value
-    if(letra52.toUpperCase() == '7') {
-        document.getElementById('quadrado52').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra52 == '') {
-        document.getElementById('quadrado52').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado52').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    var letra53 = quadrado53.value
-    if(letra53.toUpperCase() == 'R') {
-        document.getElementById('quadrado53').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra53 == '') {
-        document.getElementById('quadrado53').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado53').style.backgroundColor = 'rgb(255,99,71)'
-    }
 
 
-    var letra56 = quadrado56.value
-    if(letra56.toUpperCase() == 'E') {
-        document.getElementById('quadrado56').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra56 == '') {
-        document.getElementById('quadrado56').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado56').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    var letra57 = quadrado57.value
-    if(letra57.toUpperCase() == 'D') {
-        document.getElementById('quadrado57').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra57 == '') {
-        document.getElementById('quadrado57').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado57').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    var letra63 = quadrado63.value
-    if(letra63.toUpperCase() == 'A') {
-        document.getElementById('quadrado63').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra63 == '') {
-        document.getElementById('quadrado63').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado63').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-
-    var letra69 = quadrado69.value
-    if(letra69.toUpperCase() == 'D') {
-        document.getElementById('quadrado69').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra69 == '') {
-        document.getElementById('quadrado69').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado69').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    var letra70 = quadrado70.value
-    if(letra70.toUpperCase() == 'A') {
-        document.getElementById('quadrado70').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra70 == '') {
-        document.getElementById('quadrado70').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado70').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
+    //palavra 12
     var letra73 = quadrado73.value
-    if(letra73.toUpperCase() == 'D') {
-        document.getElementById('quadrado73').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra73 == '') {
-        document.getElementById('quadrado73').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado73').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    
-
     var letra75 = quadrado75.value
-    if(letra75.toUpperCase() == 'T') {
-        document.getElementById('quadrado75').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra75 == '') {
-        document.getElementById('quadrado75').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado75').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
     var letra76 = quadrado76.value
-    if(letra76.toUpperCase() == 'A') {
-        document.getElementById('quadrado76').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra76 == '') {
-        document.getElementById('quadrado76').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado76').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
     var letra77 = quadrado77.value
-    if(letra77.toUpperCase() == 'B') {
-        document.getElementById('quadrado77').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra77 == '') {
-        document.getElementById('quadrado77').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado77').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
     var letra78 = quadrado78.value
-    if(letra78.toUpperCase() == 'U') {
-        document.getElementById('quadrado78').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra78 == '') {
-        document.getElementById('quadrado78').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado78').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
     var letra79 = quadrado79.value
-    if(letra79.toUpperCase() == 'S') {
+
+    if(letra73.toUpperCase() == 'D' && letra74.toUpperCase() == 'A' && letra75.toUpperCase() == 'T' && letra76.toUpperCase() == 'A' 
+    && letra77.toUpperCase() == 'B' && letra78.toUpperCase() == 'U' && letra79.toUpperCase() == 'S'){
+        document.getElementById('quadrado73').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado74').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado75').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado76').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado77').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado78').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado79').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra79 == '') {
+        document.getElementById('imagemAcerto12').src = "carne.png"
+    }
+        
+    else if(letra73 == '' && letra75 == '' && letra76 == '' && letra77 == '' && letra78 == '' && letra79 == ''){
+        document.getElementById('quadrado73').style.backgroundColor = 'white'
+        document.getElementById('quadrado75').style.backgroundColor = 'white'
+        document.getElementById('quadrado76').style.backgroundColor = 'white'
+        document.getElementById('quadrado77').style.backgroundColor = 'white'
+        document.getElementById('quadrado78').style.backgroundColor = 'white'
         document.getElementById('quadrado79').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado79').style.backgroundColor = 'rgb(255,99,71)'
+        document.getElementById('imagemAcerto12').src = "vaca.png"
+    }else{
+        document.getElementById('quadrado73').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado75').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado76').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado77').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado78').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado79').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('imagemAcerto12').src = "vaca.png"
     }
 
+    //palavra 13
+    var letra31 = quadrado31.value
+
+    if(letra30.toUpperCase() == 'I' && letra31 == '5'){
+        document.getElementById('quadrado30').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado31').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('imagemAcerto13').src = "carne.png"
+    }else if(letra31 == ''){
+        document.getElementById('quadrado31').style.backgroundColor = 'white'
+        document.getElementById('imagemAcerto13').src = "vaca.png"
+    }else{
+        document.getElementById('quadrado31').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('imagemAcerto13').src = "vaca.png"
+    }
+
+    //palavra 14
+    var letra52 = quadrado52.value
+
+    if(letra51.toUpperCase() == 'I' && letra52 == '7'){
+        document.getElementById('quadrado51').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado52').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('imagemAcerto14').src = "carne.png"
+    }else if(letra52 == ''){
+        document.getElementById('quadrado52').style.backgroundColor = 'white'
+        document.getElementById('imagemAcerto14').src = "vaca.png"
+    }else{
+        document.getElementById('quadrado52').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('imagemAcerto14').src = "vaca.png"
+    }
+
+    //palavra 15
+    var letra57 = quadrado57.value
+    var letra70 = quadrado70.value
     var letra88 = quadrado88.value
-    if(letra88.toUpperCase() == 'C') {
-        document.getElementById('quadrado88').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra88 == '') {
-        document.getElementById('quadrado88').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado88').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    
-
     var letra90 = quadrado90.value
-    if(letra90.toUpperCase() == 'O') {
-        document.getElementById('quadrado90').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra90 == '') {
-        document.getElementById('quadrado90').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado90').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    
-
     var letra92 = quadrado92.value
-    if(letra92.toUpperCase() == 'R') {
-        document.getElementById('quadrado92').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra92 == '') {
-        document.getElementById('quadrado92').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado92').style.backgroundColor = 'rgb(255,99,71)'
-    }
-
-    
-
     var letra94 = quadrado94.value
-    if(letra94.toUpperCase() == 'E') {
+
+    if(letra57.toUpperCase() == 'D' && letra64.toUpperCase() == 'U' && letra70.toUpperCase() == 'A' && letra81.toUpperCase() == 'L' 
+    && letra88.toUpperCase() =='C' && letra90.toUpperCase() == 'O' && letra92.toUpperCase() == 'R' && letra94.toUpperCase() == 'E'){
+        document.getElementById('quadrado57').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado64').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado70').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado81').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado88').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado90').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado92').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado94').style.backgroundColor = 'rgb(60,179,113)'
-    } else if(letra94 == '') {
-        document.getElementById('quadrado94').style.backgroundColor = 'white'
-    } else {
-        document.getElementById('quadrado94').style.backgroundColor = 'rgb(255,99,71)'
+        document.getElementById('imagemAcerto15').src = "carne.png"
     }
+    else if(letra57 == '' && letra70 == '' && letra88 =='' && letra90 == '' && letra92 == '' && letra94 == ''){
+        document.getElementById('quadrado57').style.backgroundColor = 'white'
+        document.getElementById('quadrado70').style.backgroundColor = 'white'
+        document.getElementById('quadrado88').style.backgroundColor = 'white'
+        document.getElementById('quadrado90').style.backgroundColor = 'white'
+        document.getElementById('quadrado92').style.backgroundColor = 'white'
+        document.getElementById('quadrado94').style.backgroundColor = 'white'
+        document.getElementById('imagemAcerto15').src = "vaca.png"
+    }else{
+        document.getElementById('quadrado57').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado70').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado88').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado90').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado92').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado94').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('imagemAcerto15').src = "vaca.png"
+    }
+
+    //palavra 16
+    var letra1 = quadrado1.value
+    var letra5 = quadrado5.value
+    var letra8 = quadrado8.value
+    var letra21 = quadrado21.value
+    var letra24 = quadrado24.value
+    var letra32 = quadrado32.value
+
+    if(letra1.toUpperCase() == 'Q' && letra4.toUpperCase() == 'U' && letra5.toUpperCase() == 'A' && letra8.toUpperCase() == 'D'
+    && letra21.toUpperCase() == 'C' && letra24.toUpperCase() == 'O' && letra27.toUpperCase() == 'R' && letra32.toUpperCase() == 'E'){ 
+        
+        document.getElementById('quadrado1').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado4').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado5').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado8').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado21').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado24').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado27').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado32').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('imagemAcerto16').src = "carne.png"
+    }
+    else if(letra1 == '' && letra4 == '' && letra5 == '' && letra8 == '' && letra21 == '' && letra24 == '' && letra27 == '' && letra32 == ''){
+        document.getElementById('quadrado1').style.backgroundColor = 'white'
+        document.getElementById('quadrado5').style.backgroundColor = 'white'
+        document.getElementById('quadrado8').style.backgroundColor = 'white'
+        document.getElementById('quadrado21').style.backgroundColor = 'white'
+        document.getElementById('quadrado24').style.backgroundColor = 'white'
+        document.getElementById('quadrado32').style.backgroundColor = 'white'
+        document.getElementById('imagemAcerto16').src = "vaca.png"
+    }else{
+        document.getElementById('quadrado1').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado5').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado8').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado21').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado24').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado32').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('imagemAcerto16').src = "vaca.png"
+    }
+
+    //palavra 17
+    var letra38 = quadrado38.value
+    var letra53 = quadrado53.value
+    var letra56 = quadrado56.value
+    var letra63 = quadrado63.value
+    var letra69 = quadrado69.value
+
+    if(letra38.toUpperCase() == 'T' && letra42.toUpperCase() == 'H' && letra53.toUpperCase() == 'R' && letra56.toUpperCase() == 'E' 
+    && letra63.toUpperCase() == 'A' && letra69.toUpperCase() == 'D' && letra79.toUpperCase() == 'S' ){
+        document.getElementById('quadrado38').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado42').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado53').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado56').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado63').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado69').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado79').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('imagemAcerto17').src = "carne.png"
+    }
+    else if(letra38 == ''  && letra53 == '' && letra56 == '' && letra63 == '' && letra69 == ''){
+        document.getElementById('quadrado38').style.backgroundColor = 'white'
+        document.getElementById('quadrado53').style.backgroundColor = 'white'
+        document.getElementById('quadrado56').style.backgroundColor = 'white'
+        document.getElementById('quadrado63').style.backgroundColor = 'white'
+        document.getElementById('quadrado69').style.backgroundColor = 'white'
+        document.getElementById('imagemAcerto17').src = "vaca.png"
+    }else{
+        document.getElementById('quadrado38').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado53').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado56').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado63').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado69').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('imagemAcerto17').src = "vaca.png"
+    }
+
+
+
+    //palavra 18
+    var letra6 = quadrado6.value
+    var letra19 = quadrado19.value
+    var letra22 = quadrado22.value
+    var letra25 = quadrado25.value
+
+    if(letra6.toUpperCase() == 'C' && letra9.toUpperCase() == 'A' && letra19.toUpperCase() == 'C' && letra22.toUpperCase() == 'H' && letra25.toUpperCase() == 'E') {
+        document.getElementById('quadrado6').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado9').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado19').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado22').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado25').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('imagemAcerto18').src = "carne.png"
+    } 
+    else if(letra6 == '' && letra19 == '' && letra22 == '' && letra25 == '') {
+        document.getElementById('quadrado6').style.backgroundColor = 'white'
+        document.getElementById('quadrado19').style.backgroundColor = 'white'
+        document.getElementById('quadrado22').style.backgroundColor = 'white'
+        document.getElementById('quadrado25').style.backgroundColor = 'white'
+        document.getElementById('imagemAcerto18').src = "vaca.png"
+    } 
+    else {
+        document.getElementById('quadrado6').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado19').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado22').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('quadrado25').style.backgroundColor = 'rgb(192,192,192)'
+        document.getElementById('imagemAcerto18').src = "vaca.png"
+    }
+
+
+
 
     if( letra94.toUpperCase() == 'E' && letra93.toUpperCase() == 'S' && letra92.toUpperCase() == 'R'
     && letra91.toUpperCase() == 'E' && letra90.toUpperCase() == 'O' && letra89.toUpperCase() == 'R'
