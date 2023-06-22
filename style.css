@@ -89,7 +89,7 @@ button:hover{
     color:  rgb(3, 3, 3);
     font-weight: 600;
     overflow-y: scroll;
-    height: 900px;
+    height: 800px;
 }
 
 .perguntas li{
@@ -102,8 +102,9 @@ button:hover{
 #ganhou{
     width: 600px;
     height: 350px;
-    background-color: rgb(120, 216, 100);
+    background-color: rgb(41, 140, 18);
     display: none;
+    font-weight: bold;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -113,7 +114,6 @@ button:hover{
     top: 300px;
     text-align: center;
     gap: 40px;
-    box-shadow:2px 2px 4px #000000;
 }
 
 .imagemAcerto {
@@ -125,6 +125,7 @@ button:hover{
 #ganhou span{
     font-size: 24px;
     font-family: 'IBM Plex Sans', sans-serif;
+    color: aliceblue;
     
 }
 

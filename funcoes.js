@@ -4,6 +4,7 @@ function validarPalavra() {
     var letra2 = quadrado2.value
     var letra3 = quadrado3.value
     var letra4 = quadrado4.value
+    var palavra1 = (letra2 + letra3 + letra4).toUpperCase();
 
     if(letra2.toUpperCase() == 'C' && letra3.toUpperCase() == 'P' && letra4.toUpperCase() == 'U') {
         document.getElementById('quadrado2').style.backgroundColor = 'rgb(60,179,113)'
@@ -11,22 +12,33 @@ function validarPalavra() {
         document.getElementById('quadrado4').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('imagemAcerto1').src = "carne.png"
 
+    } else if(letra2 != '' && letra3 != '' && letra4 != '' && palavra1 != "CPU") {
+        document.getElementById('quadrado2').style.backgroundColor = 'red'
+        document.getElementById('quadrado3').style.backgroundColor = 'red'
+        document.getElementById('quadrado4').style.backgroundColor = 'red'
+        document.getElementById('imagemAcerto1').src = "vaca.png"
+        
     } else if(letra2 == '' && letra3 == '' && letra4 == '') {
         document.getElementById('quadrado2').style.backgroundColor = 'white'
         document.getElementById('quadrado3').style.backgroundColor = 'white'
         document.getElementById('quadrado4').style.backgroundColor = 'white'
         document.getElementById('imagemAcerto1').src = "vaca.png"
+
     } else {
         document.getElementById('quadrado2').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('quadrado3').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('quadrado4').style.backgroundColor = 'rgb(192,192,192)'
         document.getElementById('imagemAcerto1').src = "vaca.png"
     }
+    
+    
+
 
     // Palavra 2
     var letra64 = quadrado64.value
     var letra65 = quadrado65.value
     var letra66 = quadrado66.value
+    var palavra2 = (letra64 + letra65 + letra66).toUpperCase();
 
     if(letra64.toUpperCase() == 'U' && letra65.toUpperCase() == 'L' && letra66.toUpperCase() == 'A') {
         document.getElementById('quadrado64').style.backgroundColor = 'rgb(60,179,113)'
@@ -34,6 +46,12 @@ function validarPalavra() {
         document.getElementById('quadrado66').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('imagemAcerto2').src = "carne.png"
 
+    } else if(letra64 != '' && letra65 != '' && letra66 != '' && palavra2 != "ULA") {
+        document.getElementById('quadrado64').style.backgroundColor = 'red'
+        document.getElementById('quadrado65').style.backgroundColor = 'red'
+        document.getElementById('quadrado66').style.backgroundColor = 'red'
+        document.getElementById('imagemAcerto2').src = "vaca.png"
+        
     } else if(letra64 == '' && letra65 == '' && letra66 == '') {
         document.getElementById('quadrado64').style.backgroundColor = 'white'
         document.getElementById('quadrado65').style.backgroundColor = 'white'
@@ -61,6 +79,8 @@ function validarPalavra() {
     var letra89 = quadrado89.value
     var letra91 = quadrado91.value
     var letra93 = quadrado93.value
+    var palavra3 = (letra36 + letra37 + letra40 + letra51 + letra55 + letra62 + letra68 + letra74 + 
+        letra85 + letra87 + letra89 + letra91 + letra93).toUpperCase();
 
     if(letra36.toUpperCase() == 'R' && letra37.toUpperCase() == 'E' && letra40.toUpperCase() == 'G' && letra51.toUpperCase() == 'I' 
     && letra55.toUpperCase() == 'S' && letra62.toUpperCase() == 'T' && letra68.toUpperCase() == 'R' && letra74.toUpperCase() == 'A' 
@@ -80,6 +100,25 @@ function validarPalavra() {
         document.getElementById('quadrado91').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado93').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('imagemAcerto3').src = "carne.png"
+
+    }  else if(letra36.toUpperCase() != '' && letra37.toUpperCase() != '' && letra40.toUpperCase() != '' && letra51.toUpperCase() != '' 
+    && letra55.toUpperCase() != '' && letra62.toUpperCase() != '' && letra68.toUpperCase() != '' && letra74.toUpperCase() != '' 
+    && letra85.toUpperCase() != '' && letra87.toUpperCase() != '' && letra89.toUpperCase() != '' && letra91.toUpperCase() != '' 
+    && letra93.toUpperCase() != '' && palavra3 != "REGISTRADORES") {
+        document.getElementById('quadrado36').style.backgroundColor = 'red'
+        document.getElementById('quadrado37').style.backgroundColor = 'red'
+        document.getElementById('quadrado40').style.backgroundColor = 'red'
+        document.getElementById('quadrado51').style.backgroundColor = 'red'
+        document.getElementById('quadrado55').style.backgroundColor = 'red'
+        document.getElementById('quadrado62').style.backgroundColor = 'red'
+        document.getElementById('quadrado68').style.backgroundColor = 'red'
+        document.getElementById('quadrado74').style.backgroundColor = 'red'
+        document.getElementById('quadrado85').style.backgroundColor = 'red'
+        document.getElementById('quadrado87').style.backgroundColor = 'red'
+        document.getElementById('quadrado89').style.backgroundColor = 'red'
+        document.getElementById('quadrado91').style.backgroundColor = 'red'
+        document.getElementById('quadrado93').style.backgroundColor = 'red'
+        document.getElementById('imagemAcerto3').src = "vaca.png"
 
     } else if(letra36.toUpperCase() == '' && letra37.toUpperCase() == '' && letra40.toUpperCase() == '' && letra51.toUpperCase() == '' 
     && letra55.toUpperCase() == '' && letra62.toUpperCase() == '' && letra68.toUpperCase() == '' && letra74.toUpperCase() == '' 
@@ -121,12 +160,19 @@ function validarPalavra() {
     var letra59 = quadrado59.value
     var letra60 = quadrado60.value
     var letra61 = quadrado61.value
+    var palavra4 = (letra59 + letra60 + letra61).toUpperCase();
     
     if(letra59.toUpperCase() == 'R' && letra60.toUpperCase() == 'A' && letra61.toUpperCase() == 'M') {
         document.getElementById('quadrado59').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado60').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado61').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('imagemAcerto4').src = "carne.png"
+
+    } else if(letra59 != '' && letra60 != '' && letra61 != '' && palavra4 != "RAM") {
+        document.getElementById('quadrado59').style.backgroundColor = 'red'
+        document.getElementById('quadrado60').style.backgroundColor = 'red'
+        document.getElementById('quadrado61').style.backgroundColor = 'red'
+        document.getElementById('imagemAcerto4').src = "vaca.png"
 
     } else if(letra59 == '' && letra60 == '' && letra61 == '') {
         document.getElementById('quadrado59').style.backgroundColor = 'white'
@@ -145,6 +191,7 @@ function validarPalavra() {
     var letra27 = quadrado27.value
     var letra28 = quadrado28.value
     var letra29 = quadrado29.value
+    var palavra5 = (letra27 + letra28 + letra29).toUpperCase();
     
     if(letra27.toUpperCase() == 'R' && letra28.toUpperCase() == 'O' && letra29.toUpperCase() == 'M') {
         document.getElementById('quadrado27').style.backgroundColor = 'rgb(60,179,113)'
@@ -152,7 +199,13 @@ function validarPalavra() {
         document.getElementById('quadrado29').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('imagemAcerto5').src = "carne.png"
 
-    } else if(letra27 == '' && letra28 == '' && letra29 == '') {
+    } else if(letra27 != '' && letra28 != '' && letra29 != '' && palavra5 != "ROM") {
+        document.getElementById('quadrado27').style.backgroundColor = 'red'
+        document.getElementById('quadrado28').style.backgroundColor = 'red'
+        document.getElementById('quadrado29').style.backgroundColor = 'red'
+        document.getElementById('imagemAcerto5').src = "vaca.png"
+
+    }else if(letra27 == '' && letra28 == '' && letra29 == '') {
         document.getElementById('quadrado27').style.backgroundColor = 'white'
         document.getElementById('quadrado28').style.backgroundColor = 'white'
         document.getElementById('quadrado29').style.backgroundColor = 'white'
@@ -170,13 +223,23 @@ function validarPalavra() {
     var letra54 = quadrado54.value
     var letra67 = quadrado67.value
     var letra72 = quadrado72.value
+    var palavra6 = (letra48 + letra54 + letra59 + letra67 + letra72).toUpperCase();
     
     if(letra48.toUpperCase() == 'E' && letra54.toUpperCase() == 'P'  && letra67.toUpperCase() == 'O' && letra72.toUpperCase() == 'M') {
         document.getElementById('quadrado48').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado54').style.backgroundColor = 'rgb(60,179,113)'
+        document.getElementById('quadrado59').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado67').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado72').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('imagemAcerto6').src = "carne.png"
+
+    } else if(letra48 != '' && letra54 != '' && letra59 != '' && letra67 != '' && letra72 != '' && letra59 != '' && palavra6 != "EPROM") {
+        document.getElementById('quadrado48').style.backgroundColor = 'red'
+        document.getElementById('quadrado54').style.backgroundColor = 'red'
+        document.getElementById('quadrado59').style.backgroundColor = 'red'
+        document.getElementById('quadrado67').style.backgroundColor = 'red'
+        document.getElementById('quadrado72').style.backgroundColor = 'red'
+        document.getElementById('imagemAcerto6').src = "vaca.png"
 
     } else if(letra48 == '' && letra54 == '' && letra59 == '' && letra67 == '' && letra72 == '') {
         document.getElementById('quadrado48').style.backgroundColor = 'white'
@@ -198,7 +261,8 @@ function validarPalavra() {
     var letra81 = quadrado81.value
     var letra82 = quadrado82.value
     var letra83 = quadrado83.value
-    var letra84 = quadrado84.value
+    var letra84 = quadrado84.value  
+    var palavra7 = (letra80 + letra81 + letra82 + letra83 + letra84).toUpperCase();
     
     if(letra80.toUpperCase() == 'F' && letra81.toUpperCase() == 'L' && letra82.toUpperCase() == 'A' && letra83.toUpperCase() == 'S' && letra84.toUpperCase() == 'H') {
         document.getElementById('quadrado80').style.backgroundColor = 'rgb(60,179,113)'
@@ -207,6 +271,14 @@ function validarPalavra() {
         document.getElementById('quadrado83').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado84').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('imagemAcerto7').src = "carne.png"
+
+    } else if(letra80 != '' && letra81 != '' && letra82 != '' && letra83 != '' && letra84 != '' && palavra7 != "FLASH") {
+        document.getElementById('quadrado80').style.backgroundColor = 'red'
+        document.getElementById('quadrado81').style.backgroundColor = 'red'
+        document.getElementById('quadrado82').style.backgroundColor = 'red'
+        document.getElementById('quadrado83').style.backgroundColor = 'red'
+        document.getElementById('quadrado84').style.backgroundColor = 'red'
+        document.getElementById('imagemAcerto7').src = "vaca.png"
 
     } else if(letra80 == '' && letra81 == '' && letra82 == '' && letra83 == '' && letra84 == '') {
         document.getElementById('quadrado80').style.backgroundColor = 'white'
@@ -239,6 +311,8 @@ function validarPalavra() {
     var letra71 = quadrado71.value
     var letra83 = quadrado83.value
     var letra86 = quadrado86.value
+    var palavra8 = (letra7 + letra13 + letra20 + letra23 + letra26 + letra30 + letra35 + letra39 +
+        letra46 + letra58 + letra71 + letra83 + letra86).toUpperCase();
     
     if(letra7.toUpperCase() == 'M' && letra13.toUpperCase() == 'E' && letra20.toUpperCase() == 'M' && letra23.toUpperCase() == 'O' 
     && letra26.toUpperCase() == 'R' && letra30.toUpperCase() == 'I' && letra35.toUpperCase() == 'A' && letra39.toUpperCase() == 'D' 
@@ -260,6 +334,23 @@ function validarPalavra() {
         document.getElementById('quadrado86').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('imagemAcerto8').src = "carne.png"
 
+    } else if(letra7 != '' && letra13 != '' && letra20 != '' && letra23 != '' && letra26 != '' && letra30 != '' && letra35 != '' 
+    && letra39 != '' && letra46 != '' && letra58 != '' && letra66 != '' && letra71 != ''&& letra83 != '' &&  letra83 != '' && letra86 != '' && palavra8 != "MEMORIADEMASSA") {
+        document.getElementById('quadrado7').style.backgroundColor = 'red'
+        document.getElementById('quadrado13').style.backgroundColor = 'red'
+        document.getElementById('quadrado20').style.backgroundColor = 'red'
+        document.getElementById('quadrado23').style.backgroundColor = 'red'
+        document.getElementById('quadrado26').style.backgroundColor = 'red'
+        document.getElementById('quadrado30').style.backgroundColor = 'red'
+        document.getElementById('quadrado35').style.backgroundColor = 'red'
+        document.getElementById('quadrado39').style.backgroundColor = 'red'
+        document.getElementById('quadrado46').style.backgroundColor = 'red'
+        document.getElementById('quadrado58').style.backgroundColor = 'red'
+        document.getElementById('quadrado66').style.backgroundColor = 'red'
+        document.getElementById('quadrado71').style.backgroundColor = 'red'
+        document.getElementById('quadrado83').style.backgroundColor = 'red'
+        document.getElementById('quadrado86').style.backgroundColor = 'red'
+        document.getElementById('imagemAcerto8').src = "vaca.png"
     } else if(letra7 == '' && letra13 == '' && letra20 == '' && letra23 == '' && letra26 == '' && letra30 == '' && letra35 == '' 
     && letra39 == '' && letra46 == '' && letra58 == '' && letra66 == '' && letra71 == ''&& letra83 == '' && letra86 == '') {
         document.getElementById('quadrado7').style.backgroundColor = 'white'
@@ -297,6 +388,7 @@ function validarPalavra() {
     var letra33 = quadrado33.value
     var letra34 = quadrado34.value
     var letra35 = quadrado35.value
+    var palavra9 = (letra33 + letra34 + letra35).toUpperCase();
 
     if(letra33.toUpperCase() == 'D' && letra34.toUpperCase() == 'M' && letra35.toUpperCase() == 'A') {
         document.getElementById('quadrado33').style.backgroundColor = 'rgb(60,179,113)'
@@ -304,6 +396,11 @@ function validarPalavra() {
         document.getElementById('quadrado35').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('imagemAcerto9').src = "carne.png"
 
+    }  else if(letra33 != '' && letra34 != '' && letra35 != '' && palavra9 != "DMA") {
+        document.getElementById('quadrado33').style.backgroundColor = 'red'
+        document.getElementById('quadrado34').style.backgroundColor = 'red'
+        document.getElementById('quadrado35').style.backgroundColor = 'red'
+        document.getElementById('imagemAcerto9').src = "vaca.png"
     } else if(letra33 == '' && letra34 == '' && letra35 == '') {
         document.getElementById('quadrado33').style.backgroundColor = 'white'
         document.getElementById('quadrado34').style.backgroundColor = 'white'
@@ -326,6 +423,8 @@ function validarPalavra() {
     var letra48 = quadrado48.value
     var letra49 = quadrado49.value
     var letra50 = quadrado50.value
+    var palavra10 = (letra41 + letra42 + letra43 + letra44 + letra45 + letra45 + letra46 + 
+        letra47 + letra48 + letra49 + letra50).toUpperCase();
     
     if(letra41.toUpperCase() == 'C' && letra42.toUpperCase() == 'H' && letra43.toUpperCase() == 'I' && letra44.toUpperCase() == 'P' 
     && letra45.toUpperCase() == 'S' && letra46.toUpperCase() == 'E' && letra47.toUpperCase() == 'L' && letra48.toUpperCase() == 'E' 
@@ -341,6 +440,18 @@ function validarPalavra() {
         document.getElementById('quadrado49').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado50').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('imagemAcerto10').src = "carne.png"
+
+    } else if(letra41 != '' && letra42 != '' && letra43 != '' && letra44 != '' && letra45 != '' && letra46 != '' && letra47 != '' 
+    && letra48 != '' && letra49 != '' && letra50 != '' && palavra10 != "CHIPSELECT") {
+        document.getElementById('quadrado41').style.backgroundColor = 'red'
+        document.getElementById('quadrado42').style.backgroundColor = 'red'
+        document.getElementById('quadrado43').style.backgroundColor = 'red'
+        document.getElementById('quadrado44').style.backgroundColor = 'red'
+        document.getElementById('quadrado45').style.backgroundColor = 'red'
+        document.getElementById('quadrado47').style.backgroundColor = 'red'
+        document.getElementById('quadrado49').style.backgroundColor = 'red'
+        document.getElementById('quadrado50').style.backgroundColor = 'red'
+        document.getElementById('imagemAcerto10').src = "vaca.png"
 
     } else if(letra41 == '' && letra42 == '' && letra43 == '' && letra44 == '' && letra45 == '' && letra46 == '' && letra47 == '' 
     && letra48 == '' && letra49 == '' && letra50 == '') {
@@ -377,6 +488,8 @@ function validarPalavra() {
     var letra16 = quadrado16.value
     var letra17 = quadrado17.value
     var letra18 = quadrado18.value
+    var palavra11 = (letra9 + letra10 + letra11 + letra12 + letra13 + letra14 + letra15 + 
+        letra16 + letra17 + letra18).toUpperCase();
     
     if(letra9.toUpperCase() == 'A' && letra10.toUpperCase() == 'D' && letra11.toUpperCase() == 'D' && letra12.toUpperCase() == 'R' 
     && letra13.toUpperCase() == 'E' && letra14.toUpperCase() == 'S' && letra15.toUpperCase() == 'S' && letra16.toUpperCase() == 'B' 
@@ -392,6 +505,20 @@ function validarPalavra() {
         document.getElementById('quadrado17').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado18').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('imagemAcerto11').src = "carne.png"
+
+    }  else if(letra9 != '' && letra10 != '' && letra11 != '' && letra12 != '' && letra13 != '' && letra14 != '' && letra15 != '' 
+    && letra16 != '' && letra17 != '' && letra18 != '' && palavra11 != "ADDRESSBUS") {
+        document.getElementById('quadrado9').style.backgroundColor = 'red'
+        document.getElementById('quadrado10').style.backgroundColor = 'red'
+        document.getElementById('quadrado11').style.backgroundColor = 'red'
+        document.getElementById('quadrado12').style.backgroundColor = 'red'
+        document.getElementById('quadrado13').style.backgroundColor = 'red'
+        document.getElementById('quadrado14').style.backgroundColor = 'red'
+        document.getElementById('quadrado15').style.backgroundColor = 'red'
+        document.getElementById('quadrado16').style.backgroundColor = 'red'
+        document.getElementById('quadrado17').style.backgroundColor = 'red'
+        document.getElementById('quadrado18').style.backgroundColor = 'red'
+        document.getElementById('imagemAcerto11').src = "vaca.png"
 
     } else if(letra9 == '' && letra10 == '' && letra11 == '' && letra12 == '' && letra13 == '' && letra14 == '' && letra15 == '' 
     && letra16 == '' && letra17 == '' && letra18 == '') {
@@ -429,6 +556,7 @@ function validarPalavra() {
     var letra77 = quadrado77.value
     var letra78 = quadrado78.value
     var letra79 = quadrado79.value
+    var palavra12 = (letra73 + letra74 + letra75 + letra76 + letra77 + letra78 + letra79).toUpperCase();
 
     if(letra73.toUpperCase() == 'D' && letra74.toUpperCase() == 'A' && letra75.toUpperCase() == 'T' && letra76.toUpperCase() == 'A' 
     && letra77.toUpperCase() == 'B' && letra78.toUpperCase() == 'U' && letra79.toUpperCase() == 'S'){
@@ -440,6 +568,15 @@ function validarPalavra() {
         document.getElementById('quadrado78').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado79').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('imagemAcerto12').src = "carne.png"
+        
+    } else if(letra73 !='' && letra75 !='' && letra76 !='' && letra77 !='' && letra78 !='' && letra79 !='' && palavra12 != "DATABUS"){
+        document.getElementById('quadrado73').style.backgroundColor = 'red'
+        document.getElementById('quadrado75').style.backgroundColor = 'red'
+        document.getElementById('quadrado76').style.backgroundColor = 'red'
+        document.getElementById('quadrado77').style.backgroundColor = 'red'
+        document.getElementById('quadrado78').style.backgroundColor = 'red'
+        document.getElementById('quadrado79').style.backgroundColor = 'red'
+        document.getElementById('imagemAcerto12').src = "vaca.png"
     }
         
     else if(letra73 == '' && letra75 == '' && letra76 == '' && letra77 == '' && letra78 == '' && letra79 == ''){
@@ -462,11 +599,15 @@ function validarPalavra() {
 
     //palavra 13
     var letra31 = quadrado31.value
+    var palavra13 = (letra31).toUpperCase();
 
     if(letra30.toUpperCase() == 'I' && letra31 == '5'){
         document.getElementById('quadrado30').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado31').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('imagemAcerto13').src = "carne.png"
+    }else if(letra31 != '' && palavra13 != "I5"){
+        document.getElementById('quadrado31').style.backgroundColor = 'red'
+        document.getElementById('imagemAcerto13').src = "vaca.png"
     }else if(letra31 == ''){
         document.getElementById('quadrado31').style.backgroundColor = 'white'
         document.getElementById('imagemAcerto13').src = "vaca.png"
@@ -477,11 +618,15 @@ function validarPalavra() {
 
     //palavra 14
     var letra52 = quadrado52.value
+    var palavra14 = (letra52).toUpperCase();
 
     if(letra51.toUpperCase() == 'I' && letra52 == '7'){
         document.getElementById('quadrado51').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado52').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('imagemAcerto14').src = "carne.png"
+    }else if(letra52 != '' && palavra14 != "I7"){
+        document.getElementById('quadrado52').style.backgroundColor = 'red'
+        document.getElementById('imagemAcerto14').src = "vaca.png"
     }else if(letra52 == ''){
         document.getElementById('quadrado52').style.backgroundColor = 'white'
         document.getElementById('imagemAcerto14').src = "vaca.png"
@@ -497,6 +642,7 @@ function validarPalavra() {
     var letra90 = quadrado90.value
     var letra92 = quadrado92.value
     var letra94 = quadrado94.value
+    var palavra15 = (letra57 + letra64 + letra70 + letra81 + letra88 + letra90 + letra92 + letra94).toUpperCase();
 
     if(letra57.toUpperCase() == 'D' && letra64.toUpperCase() == 'U' && letra70.toUpperCase() == 'A' && letra81.toUpperCase() == 'L' 
     && letra88.toUpperCase() =='C' && letra90.toUpperCase() == 'O' && letra92.toUpperCase() == 'R' && letra94.toUpperCase() == 'E'){
@@ -509,6 +655,15 @@ function validarPalavra() {
         document.getElementById('quadrado92').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado94').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('imagemAcerto15').src = "carne.png"
+        
+    } else if(letra57 != '' && letra70 != '' && letra88 !='' && letra90 != '' && letra92 != '' && letra94 != '' && palavra15 != "DUALCORE"){
+        document.getElementById('quadrado57').style.backgroundColor = 'red'
+        document.getElementById('quadrado70').style.backgroundColor = 'red'
+        document.getElementById('quadrado88').style.backgroundColor = 'red'
+        document.getElementById('quadrado90').style.backgroundColor = 'red'
+        document.getElementById('quadrado92').style.backgroundColor = 'red'
+        document.getElementById('quadrado94').style.backgroundColor = 'red'
+        document.getElementById('imagemAcerto15').src = "vaca.png"
     }
     else if(letra57 == '' && letra70 == '' && letra88 =='' && letra90 == '' && letra92 == '' && letra94 == ''){
         document.getElementById('quadrado57').style.backgroundColor = 'white'
@@ -535,6 +690,7 @@ function validarPalavra() {
     var letra21 = quadrado21.value
     var letra24 = quadrado24.value
     var letra32 = quadrado32.value
+    var palavra16 = (letra1 + letra4 + letra5 + letra8 + letra21 + letra24 + letra27 + letra32).toUpperCase();
 
     if(letra1.toUpperCase() == 'Q' && letra4.toUpperCase() == 'U' && letra5.toUpperCase() == 'A' && letra8.toUpperCase() == 'D'
     && letra21.toUpperCase() == 'C' && letra24.toUpperCase() == 'O' && letra27.toUpperCase() == 'R' && letra32.toUpperCase() == 'E'){ 
@@ -548,6 +704,15 @@ function validarPalavra() {
         document.getElementById('quadrado27').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado32').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('imagemAcerto16').src = "carne.png"
+
+    } else if(letra1 != '' && letra4 != '' && letra5 != '' && letra8 != '' && letra21 != '' && letra24 != '' && letra27 != '' && letra32 != '' && palavra16 != "QUADCORE"){
+        document.getElementById('quadrado1').style.backgroundColor = 'red'
+        document.getElementById('quadrado5').style.backgroundColor = 'red'
+        document.getElementById('quadrado8').style.backgroundColor = 'red'
+        document.getElementById('quadrado21').style.backgroundColor = 'red'
+        document.getElementById('quadrado24').style.backgroundColor = 'red'
+        document.getElementById('quadrado32').style.backgroundColor = 'red'
+        document.getElementById('imagemAcerto16').src = "vaca.png"
     }
     else if(letra1 == '' && letra4 == '' && letra5 == '' && letra8 == '' && letra21 == '' && letra24 == '' && letra27 == '' && letra32 == ''){
         document.getElementById('quadrado1').style.backgroundColor = 'white'
@@ -573,6 +738,7 @@ function validarPalavra() {
     var letra56 = quadrado56.value
     var letra63 = quadrado63.value
     var letra69 = quadrado69.value
+    var palavra17 = (letra38+ letra53 + letra56 + letra63 + letra69).toUpperCase();
 
     if(letra38.toUpperCase() == 'T' && letra42.toUpperCase() == 'H' && letra53.toUpperCase() == 'R' && letra56.toUpperCase() == 'E' 
     && letra63.toUpperCase() == 'A' && letra69.toUpperCase() == 'D' && letra79.toUpperCase() == 'S' ){
@@ -584,8 +750,18 @@ function validarPalavra() {
         document.getElementById('quadrado69').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado79').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('imagemAcerto17').src = "carne.png"
-    }
-    else if(letra38 == ''  && letra53 == '' && letra56 == '' && letra63 == '' && letra69 == ''){
+
+    } else if(letra38 != '' && letra42 != '' && letra53 != '' && letra56 != '' && letra63 != '' && letra69 != '' && letra79 != '' && palavra17 != "THREADS"){
+        document.getElementById('quadrado38').style.backgroundColor = 'red'
+        document.getElementById('quadrado42').style.backgroundColor = 'red'
+        document.getElementById('quadrado53').style.backgroundColor = 'red'
+        document.getElementById('quadrado56').style.backgroundColor = 'red'
+        document.getElementById('quadrado63').style.backgroundColor = 'red'
+        document.getElementById('quadrado69').style.backgroundColor = 'red'
+        document.getElementById('quadrado79').style.backgroundColor = 'red'
+        document.getElementById('imagemAcerto17').src = "vaca.png"
+
+    }else if(letra38 == ''  && letra53 == '' && letra56 == '' && letra63 == '' && letra69 == ''){
         document.getElementById('quadrado38').style.backgroundColor = 'white'
         document.getElementById('quadrado53').style.backgroundColor = 'white'
         document.getElementById('quadrado56').style.backgroundColor = 'white'
@@ -608,6 +784,7 @@ function validarPalavra() {
     var letra19 = quadrado19.value
     var letra22 = quadrado22.value
     var letra25 = quadrado25.value
+    var palavra18 = (letra6 + letra19 + letra22 + letra25).toUpperCase();
 
     if(letra6.toUpperCase() == 'C' && letra9.toUpperCase() == 'A' && letra19.toUpperCase() == 'C' && letra22.toUpperCase() == 'H' && letra25.toUpperCase() == 'E') {
         document.getElementById('quadrado6').style.backgroundColor = 'rgb(60,179,113)'
@@ -616,8 +793,15 @@ function validarPalavra() {
         document.getElementById('quadrado22').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('quadrado25').style.backgroundColor = 'rgb(60,179,113)'
         document.getElementById('imagemAcerto18').src = "carne.png"
-    } 
-    else if(letra6 == '' && letra19 == '' && letra22 == '' && letra25 == '') {
+
+    }  else if(letra6 != '' && letra19 != '' && letra22 != '' && letra25 != '' && palavra18 != "CACHE") {
+        document.getElementById('quadrado6').style.backgroundColor = 'red'
+        document.getElementById('quadrado19').style.backgroundColor = 'red'
+        document.getElementById('quadrado22').style.backgroundColor = 'red'
+        document.getElementById('quadrado25').style.backgroundColor = 'red'
+        document.getElementById('imagemAcerto18').src = "vaca.png"
+
+    } else if(letra6 == '' && letra19 == '' && letra22 == '' && letra25 == '') {
         document.getElementById('quadrado6').style.backgroundColor = 'white'
         document.getElementById('quadrado19').style.backgroundColor = 'white'
         document.getElementById('quadrado22').style.backgroundColor = 'white'
